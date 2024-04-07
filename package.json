@@ -1,0 +1,41 @@
+{
+  "name": "RiceShop-app-2023",
+  "version": "1.0.0",
+  "description": "RiceShop rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Techinfoyt",
+  "license": "MIT",
+  "dependencies": {
+    "@react-pdf/renderer": "^3.4.2",
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "braintree": "^3.13.0",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "file-saver": "^2.0.5",
+    "gsap": "^3.12.5",
+    "jsonwebtoken": "^9.0.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "mongoose": "^6.12.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "razorpay": "^2.9.2",
+    "react-icons": "^4.7.1",
+    "slugify": "^1.6.5",
+    "xlsx": "^0.18.5"
+  }
+}

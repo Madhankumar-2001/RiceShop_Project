@@ -1,0 +1,11 @@
+.user-details-box {
+  background-color: #dcf83e; /* Set your desired background color */
+  border-radius: 30px; /* Optional: Add some border radius for rounded corners */
+  box-shadow: 10 0 10px rgba(24, 24, 24, 0.1); /* Optional: Add a subtle box shadow */
+}
+.text-center {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 90vh; /* Set minimum height to fill the screen vertically */
+}

@@ -1,0 +1,92 @@
+/* ===================================
+========= register page  */
+.form-container {
+  margin-top: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+  flex-direction: column;
+  background-color: #f5f3f3;
+  background-image: linear-gradient(0deg, #fcf7f7 0%, #b5fffc 100%);
+}
+
+.form-containers form button {
+  width: 400px; /* Set desired width */
+  height: 50px; /* Set desired height */
+  font-size: 1.5rem; /* Set desired font size */
+}
+
+.form-containers form label {
+  font-size: 1.5rem; /* Set desired font size */
+  /* You can also adjust other properties such as font-weight, color, etc. */
+}
+
+.form-containers {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  flex-direction: column;
+  background-color: #f5f1f1; /* Change background color to desired color */
+  border: 10px solid rgb(187, 17, 99); /* Outer border color */
+  border-radius: 5px; /* Add px unit */
+  color: rgb(15, 15, 15);
+  border-left: -10px;
+  width: 1580px; /* Increase width */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Outer shadow color */
+}
+
+.form-container form {
+  box-shadow: rgba(247, 247, 247, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #9c83f4;
+  border: 2px solid #000000; /* Set border color to dark black */
+  border-radius: 10px; /* Adjust border radius as needed */
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 2px solid #0a0a0a;
+  border-radius: 30;
+}
+
+.form-container form button {
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 10;
+  background-color: #f5f1f1;
+  color: rgb(15, 15, 15);
+  width: 250px;
+}
+
+.form-container form button:hover {
+  border: 1px solid rgb(7, 7, 7);
+  background: #0f0f0f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #050505,
+    #080808
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0c0c0c,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.forgot-btn {
+  background-color: #dac8c8a4 !important;
+  border: 10 !important;
+}
+
+.forgot-btn:hover {
+  color: rgb(238, 236, 236) !important;
+}
